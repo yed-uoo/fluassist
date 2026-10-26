@@ -1,0 +1,28 @@
+{
+    "model_version": "RF_V2_Balanced",
+    "probability_threshold": 0.8,
+    "features": [
+        "Fever",
+        "Headache",
+        "Nausea",
+        "Muscle_Pain_Myalgia",
+        "Vomiting",
+        "Diarrhea",
+        "Joint_Pain",
+        "Arthritis",
+        "Joint_Swelling",
+        "Rash",
+        "Chills",
+        "Sweating",
+        "Fatigue",
+        "Eye_Orbital_Pain",
+        "Conjunctivitis"
+    ],
+    "diseases": [
+        "Chikungunya",
+        "Dengue",
+        "Malaria",
+        "Typhoid"
+    ],
+    "dataset": "combined_febrile_dataset_v2.csv"
+}
